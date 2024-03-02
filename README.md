@@ -1,1 +1,1 @@
-Novella is a Fashion Brand Website in building stage using NextJS.
+Novella is a Fashion Brand Website in development stage using NextJS.
