@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bestseller-heading {
+    text-align: center;
+    padding-block: 20px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    /* border-bottom: 1px solid gray; */
+}
+
+.bestseller-container {
+    max-width: 1240px;
+    width: 100%;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.product-card h2 {
+    font-size: 30px;
+    padding-block: 10px;
+    text-transform: uppercase;
+    font-family: "Cormorant Garamond", serif;
+    border-bottom: 1px solid gray;
+}
+
+.product-card p {
+    font-size: 20px;
+    padding-block: 10px;
+    border-bottom: 1px solid gray;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.product-card h4 {
+    font-size: 20px;
+    padding-block: 10px;
+    font-family: "Cormorant Garamond", serif;
+
+}
+
+.product-card button{
+    /* font-size: 22px; */
+    width: 100%;
+    padding-block: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-family: "Cormorant Garamond", serif;
+font-weight: 900;
+font-size: 20px;
+}
+
+.product-card button:hover{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+/* .product-card img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: contain;
+}
+
+.product-card h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product-card p {
+    font-size: 14px;
+    margin-top: 5px;
+} */
